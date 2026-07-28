@@ -5,10 +5,10 @@ Function ResolverTridiagonalMatrix(rangoA As Range, _
                                    rangoB As Range, _
                                    rangoC As Range, _
                                    rangoD As Range) As Variant
-    Dim n As Long
-    Dim A() As Double, B() As Double, C() As Double, D() As Double
-    Dim Cpr() As Double, Dpr() As Double, X() As Double
-    Dim i As Long, denom As Double
+    'Dim n As Long
+    'Dim A() As Double, B() As Double, C() As Double, D() As Double
+    'Dim Cpr() As Double, Dpr() As Double, X() As Double
+    'Dim i As Long, denom As Double
     
     ' Cantidad de ecuaciones (usa la diagonal principal)
     n = rangoB.Count
