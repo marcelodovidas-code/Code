@@ -1,4 +1,4 @@
-Attribute VB_Name = "Excel a R"
+Attribute VB_Name = "Excel_a_R"
 Function datosR(datos)
 'pintar el rango de datos, incluído el título
 

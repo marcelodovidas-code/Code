@@ -1,4 +1,5 @@
-Attribute VB_Name = "Chi2 Matrix"
+Attribute VB_Name = "Chi2_Matrix"
+
 Function chi2matrix(datos)
 
 'incluir títulos

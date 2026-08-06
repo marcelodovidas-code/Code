@@ -1,5 +1,4 @@
-Attribute VB_Name = "OddsRatio Matrix"
-
+Attribute VB_Name = "OddsRatio_Matrix"
 
 Function OddsRatioMatrix(datos)
 'incluir títulos
