@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo2"
+Attribute VB_Name = "OddsRatio Matrix"
 
 
 Function OddsRatioMatrix(datos)

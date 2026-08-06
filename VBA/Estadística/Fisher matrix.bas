@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo5"
+Attribute VB_Name = "Fisher Matrix"
 Function Fishermatrix(datos)
 
 'incluir títulos

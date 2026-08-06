@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo3"
+Attribute VB_Name = "Tablas de Contingencia"
 Function tabla2x2(datos)
 'seleccionar los títulos
 
