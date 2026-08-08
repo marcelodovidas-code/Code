@@ -92,4 +92,6 @@ cv_en_075$cvm[cv_en_075$lambda == cv_en_075$lambda.1se]
 #Si es parsimonia extrema, Lasso mín
 #Si equilibrio entre predicción y parsimonia, Elastic Net alpha 0.75 lmín
 
+#Esto ha sido un típico problema de machine learning supervisado
+#El pipeline: datos con una variable objetivo, modelo que aprende, entrenamiento + validación, selección de hiperparámetros
 
