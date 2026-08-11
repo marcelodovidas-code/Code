@@ -1,4 +1,4 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "Módulo11"
 'Cálculo del diámetro equivalente del elemento de relleno para la determinación
 'de la retención de líquido en torres rellenas [Tabla 6.5 Treybal 2ª Ed.]
 Function diámetro_equivalente_Raschig_cerámica(diámetro_nominal)
@@ -644,6 +644,29 @@ End Function
 Function Frac_Aactiva_ocup_orificios(diámetro_orificio, paso)
 Frac_Aactiva_ocup_orificios = 0.907 * (diámetro_orificio / paso) ^ 2
 End Function
+
+'Cálculo del ratio espesor del plato : diámetro de orificio, para acero inoxidable
+Function Ratio_espesorplato_diámetroorif_inox(diámetro_orif)
+Select Case diámetro_orif
+    Case 0.003
+    Ratio_espesorplato_diámetroorif_inox = 0.65
+    Case 0.0045
+    Ratio_espesorplato_diámetroorif_inox = 0.43
+    Case 0.006
+    Ratio_espesorplato_diámetroorif_inox = 0.32
+    Case 0.009
+    Ratio_espesorplato_diámetroorif_inox = 0.22
+    Case 0.012
+    Ratio_espesorplato_diámetroorif_inox = 0.16
+    Case 0.015
+    Ratio_espesorplato_diámetroorif_inox = 0.17
+    Case 0.018
+    Ratio_espesorplato_diámetroorif_inox = 0.11
+    Case Else
+    Ratio_espesorplato_diámetroorif_inox = "ratio no disp"
+End Select
+End Function
+
 
 'Cálculo de la altura de la ola de líquido sobre el vertedero
 Function Altura_ola_líquido_sobre_vertedero(caudal_volumétrico_líquido, longitud_vertedero)
